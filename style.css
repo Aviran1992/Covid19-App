@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #252c35;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stats, .places {
+    padding: 0.5rem;
+}
+
+.stats button, .places button {
+    margin-right: 0.2em;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #e35760;
+}
+
+.stats button:hover, .places button:hover {
+    cursor: pointer;
+    background-color: #bd0d22;
+    color: white;
+}
+
+.selectCountry {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.selectedCountry {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+    background-color: #6f849c;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.stat h3, .stat h4 {
+    color: white;
+    padding: 0.2rem;
+    text-align: center;
+}
